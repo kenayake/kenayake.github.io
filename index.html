@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenneth Evan Ekanayake | Software Engineer Portfolio</title>
+    <meta name="description" content="Portfolio of Kenneth Evan Ekanayake, a Software Engineer and Backend Developer specializing in Java, Spring Boot, system integration, and web development.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <span class="logo-bracket">&lt;</span>Kenny<span class="logo-slash">/</span><span class="logo-bracket">&gt;</span>
+            </a>
+            <nav class="main-nav" id="mainNav">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="header-actions">
+                <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle visual theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="hero-bg-blobs">
+                <div class="blob blob-1"></div>
+                <div class="blob blob-2"></div>
+            </div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge animate-fade-in">Available for Opportunities</div>
+                    <h1 class="hero-title animate-slide-up">
+                        Hi, I'm <span class="text-gradient">Kenneth Evan</span>
+                    </h1>
+                    <h2 class="hero-subtitle animate-slide-up delay-1">
+                        Software Engineer & Backend Developer
+                    </h2>
+                    <p class="hero-description animate-slide-up delay-2">
+                        Specializing in building robust enterprise backend applications, system integrations, and modern web applications. Passionate about reliability, clean architectures, and solving complex problems.
+                    </p>
+                    <div class="hero-cta-group animate-slide-up delay-3">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-outline">Let's Connect</a>
+                    </div>
+                </div>
+                <div class="hero-visual animate-fade-in-right">
+                    <div class="hero-visual-card">
+                        <div class="code-editor-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="editor-title">DeveloperProfile.java</span>
+                        </div>
+                        <pre class="code-editor-content"><code><span class="token keyword">public class</span> <span class="token class">KennethEkanayake</span> {
+    <span class="token keyword">private String</span> role = <span class="token string">"Junior Java Developer"</span>;
+    <span class="token keyword">private String</span> company = <span class="token string">"NDS"</span>;
+    <span class="token keyword">private String[]</span> coreSkills = {
+        <span class="token string">"Java"</span>, <span class="token string">"Spring Boot"</span>, 
+        <span class="token string">"React/Next.js"</span>, <span class="token string">"APIs"</span>
+    };
+
+    <span class="token keyword">public void</span> <span class="token function">develop</span>() {
+        System.out.println(<span class="token string">"Building scalable systems"</span>);
+    }
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <h2 class="section-title text-center">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <div class="about-card-icon"><i class="fa-solid fa-briefcase"></i></div>
+                        <h3>Current Role</h3>
+                        <p>Junior Java Developer at PT. Nusantara Duta Solusindo, delivering enterprise financial integrations.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <h3>Education</h3>
+                        <p>S1 Software Engineering from Universitas Prasetiya Mulya. Strong foundations in computer science.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-card-icon"><i class="fa-solid fa-code"></i></div>
+                        <h3>Interests</h3>
+                        <p>Web Development, system integration architectures, and practical applications of AI.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section class="skills-section" id="skills">
+            <div class="container">
+                <h2 class="section-title text-center">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skills-category">
+                        <h3><i class="fa-solid fa-code text-gradient-icon"></i> Languages</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">JavaScript / TypeScript</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">Python</span>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h3><i class="fa-solid fa-layer-group text-gradient-icon"></i> Frameworks</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag">Spring Boot</span>
+                            <span class="skill-tag">React.js</span>
+                            <span class="skill-tag">Next.js</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Express.js</span>
+                            <span class="skill-tag">Flutter</span>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h3><i class="fa-solid fa-network-wired text-gradient-icon"></i> Integration & Middleware</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag">IBM WebMethods</span>
+                            <span class="skill-tag">IBM BAW</span>
+                            <span class="skill-tag">REST APIs</span>
+                            <span class="skill-tag">SOAP Services</span>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h3><i class="fa-solid fa-database text-gradient-icon"></i> Databases</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">MariaDB / MySQL</span>
+                            <span class="skill-tag">Oracle Database</span>
+                            <span class="skill-tag">Firebase</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">Supabase</span>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h3><i class="fa-solid fa-cloud text-gradient-icon"></i> Cloud & DevOps</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">GitHub Actions</span>
+                            <span class="skill-tag">Jenkins</span>
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">Linux</span>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h3><i class="fa-solid fa-screwdriver-wrench text-gradient-icon"></i> Tools & Build</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">VS Code</span>
+                            <span class="skill-tag">IntelliJ IDEA</span>
+                            <span class="skill-tag">Postman</span>
+                            <span class="skill-tag">Maven</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects Section -->
+        <section class="projects-section" id="projects">
+            <div class="container">
+                <h2 class="section-title text-center">Featured Projects</h2>
+                
+                <div class="projects-container">
+                    
+                    <!-- Project 1: RubyPay -->
+                    <div class="project-card">
+                        <div class="project-media">
+                            <div class="carousel" data-carousel-id="rubypay">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/rubypay/screenshot1.png" alt="RubyPay Wallet Screen Dashboard" class="carousel-img">
+                                        <div class="carousel-caption">Home Dashboard</div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/rubypay/screenshot2.png" alt="RubyPay Wallet Analytics Charts" class="carousel-img">
+                                        <div class="carousel-caption">Expense Analytics</div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control prev" aria-label="Previous image"><i class="fa-solid fa-chevron-left"></i></button>
+                                <button class="carousel-control next" aria-label="Next image"><i class="fa-solid fa-chevron-right"></i></button>
+                                <div class="carousel-indicators">
+                                    <button class="indicator-dot active" data-slide-to="0" aria-label="Slide 1"></button>
+                                    <button class="indicator-dot" data-slide-to="1" aria-label="Slide 2"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span class="project-tag">Flutter</span>
+                                <span class="project-tag">Django REST</span>
+                                <span class="project-tag">Dio Package</span>
+                            </div>
+                            <h3 class="project-title">RubyPay <span class="project-award"><i class="fa-solid fa-trophy"></i> 1st Place</span></h3>
+                            <p class="project-desc">
+                                A mobile e-wallet application utilizing AyoConnect's virtual debit card backend. Developed as part of a 4-person team for the Ayotron competition. Built custom authentication backend, integrated external REST APIs, and implemented real-time webhook handling.
+                            </p>
+                            <div class="project-highlights">
+                                <h4>Key Achievements:</h4>
+                                <ul>
+                                    <li>Integrated mobile UI with complex external payment APIs</li>
+                                    <li>Created robust Django backend for authentication and webhooks</li>
+                                    <li>Won 1st Place in the AyoConnect Hackathon competition</li>
+                                </ul>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://drive.google.com/file/d/1xQevhjFFrSPYATgjtb96FRZYlZAEpzS0/view" target="_blank" class="btn btn-sm btn-outline"><i class="fa-solid fa-compass"></i> Mockup Design</a>
+                                <a href="https://drive.google.com/file/d/1tPj2QD5BHLpmRKIuQAB9JuUaR_SY585z/view" target="_blank" class="btn btn-sm btn-outline"><i class="fa-solid fa-file-powerpoint"></i> Pitch Deck</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Bawang Cosplay -->
+                    <div class="project-card">
+                        <div class="project-media">
+                            <div class="carousel" data-carousel-id="bawang">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/bawang/screenshot1.jpeg" alt="Bawang Cosplay Marketplace Shop" class="carousel-img">
+                                        <div class="carousel-caption">Rental Marketplace</div>
+                                    </div>
+                                    <!-- <div class="carousel-item">
+                                        <img src="images/bawang/screenshot2.png" alt="Bawang Cosplay Discussion Forum" class="carousel-img">
+                                        <div class="carousel-caption">Community Forum</div>
+                                    </div> -->
+                                </div>
+                                <button class="carousel-control prev" aria-label="Previous image"><i class="fa-solid fa-chevron-left"></i></button>
+                                <button class="carousel-control next" aria-label="Next image"><i class="fa-solid fa-chevron-right"></i></button>
+                                <div class="carousel-indicators">
+                                    <button class="indicator-dot active" data-slide-to="0" aria-label="Slide 1"></button>
+                                    <!-- <button class="indicator-dot" data-slide-to="1" aria-label="Slide 2"></button> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span class="project-tag">Next.js</span>
+                                <span class="project-tag">Firebase</span>
+                                <span class="project-tag">Tailwind.css</span>
+                                <span class="project-tag">Drizzle ORM</span>
+                            </div>
+                            <h3 class="project-title">Bawang Cosplay Website</h3>
+                            <p class="project-desc">
+                                A community forum and costume rental marketplace platform geared towards the anime and cosplay community. Allows users to easily browse and rent costumes matching specific size profiles and interact in dedicated chat forums.
+                            </p>
+                            <div class="project-highlights">
+                                <h4>Key Achievements:</h4>
+                                <ul>
+                                    <li>Architected database schemas to store products, listings, and images</li>
+                                    <li>Integrated Next.js APIs with Firebase database & storage systems</li>
+                                    <li>Implemented custom user roles, authentication, and authorization filters</li>
+                                </ul>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/kenayake/bawang-2" target="_blank" class="btn btn-sm btn-outline"><i class="fa-brands fa-github"></i> GitHub Repo</a>
+                                <a href="https://bawang-2.vercel.app/" target="_blank" class="btn btn-sm btn-primary"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: Largo id -->
+                    <div class="project-card">
+                        <div class="project-media">
+                            <div class="carousel" data-carousel-id="largo">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/largo/Screenshot1.png" alt="Largo E-Bikes Catalog Display" class="carousel-img">
+                                        <div class="carousel-caption">Product Landing Page</div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/largo/Screenshot2.png" alt="Largo Admin Add Product" class="carousel-img">
+                                        <div class="carousel-caption">Admin Add Product</div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/largo/Screenshot3.png" alt="Largo Admin Add News" class="carousel-img">
+                                        <div class="carousel-caption">Admin Add News Form with WYSIWYG</div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control prev" aria-label="Previous image"><i class="fa-solid fa-chevron-left"></i></button>
+                                <button class="carousel-control next" aria-label="Next image"><i class="fa-solid fa-chevron-right"></i></button>
+                                <div class="carousel-indicators">
+                                    <button class="indicator-dot active" data-slide-to="0" aria-label="Slide 1"></button>
+                                    <button class="indicator-dot" data-slide-to="1" aria-label="Slide 2"></button>
+                                    <button class="indicator-dot" data-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span class="project-tag">Next.js</span>
+                                <span class="project-tag">Firebase</span>
+                                <span class="project-tag">Tailwind.css</span>
+                            </div>
+                            <h3 class="project-title">Largo id</h3>
+                            <p class="project-desc">
+                                A premium landing page and management portal for Largo, a developer of handcrafted vintage E-Bikes. Developed the catalog UI, Firestore backend database connections, and a custom administrative console containing product and rich text news editors.
+                            </p>
+                            <div class="project-highlights">
+                                <h4>Key Achievements:</h4>
+                                <ul>
+                                    <li>Implemented interactive UI components matching high-fidelity Figma designs</li>
+                                    <li>Connected website interface to Firebase Database and Storage</li>
+                                    <li>Built robust WYSIWYG news editor for marketing updates</li>
+                                </ul>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/kenayake/largo-frontend" target="_blank" class="btn btn-sm btn-outline"><i class="fa-brands fa-github"></i> GitHub Repo</a>
+                                <a href="https://largo-id.vercel.app/" target="_blank" class="btn btn-sm btn-primary"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: Positopia.Lab -->
+                    <div class="project-card">
+                        <div class="project-media">
+                            <div class="carousel" data-carousel-id="positopia">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/positopia/screenshot1.png" alt="Positopia Home" class="carousel-img">
+                                        <div class="carousel-caption">Studio Gallery View</div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/positopia/screenshot2.png" alt="Positopia Booking Calendar" class="carousel-img">
+                                        <div class="carousel-caption">Booking Schedule Grid</div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/positopia/screenshot3.png" alt="Positopia Booking Details" class="carousel-img">
+                                        <div class="carousel-caption">Details & Payment Screen</div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control prev" aria-label="Previous image"><i class="fa-solid fa-chevron-left"></i></button>
+                                <button class="carousel-control next" aria-label="Next image"><i class="fa-solid fa-chevron-right"></i></button>
+                                <div class="carousel-indicators">
+                                    <button class="indicator-dot active" data-slide-to="0" aria-label="Slide 1"></button>
+                                    <button class="indicator-dot" data-slide-to="1" aria-label="Slide 2"></button>
+                                    <button class="indicator-dot" data-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span class="project-tag">Next.js</span>
+                                <span class="project-tag">Express.js</span>
+                                <span class="project-tag">Supabase</span>
+                                <span class="project-tag">Midtrans SDK</span>
+                            </div>
+                            <h3 class="project-title">Positopia.Lab</h3>
+                            <p class="project-desc">
+                                A web portal and booking system for a professional photography studio. Integrated a booking workflow with overlap prevention logic and connected Midtrans payment gateway for secured transactions.
+                            </p>
+                            <div class="project-highlights">
+                                <h4>Key Achievements:</h4>
+                                <ul>
+                                    <li>Programmed overlap prevention algorithms for reservation slots</li>
+                                    <li>Connected the app to an external payment gateway</li>
+                                    <li>Integrated Google OAuth 2.0 registration flows to simplify onboarding</li>
+                                </ul>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://positopia-git-dev-positopialab-team.vercel.app/" target="_blank" class="btn btn-sm btn-primary"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Experience Section -->
+        <section class="experience-section" id="experience">
+            <div class="container">
+                <h2 class="section-title text-center">Professional Experience</h2>
+                
+                <div class="timeline">
+                    
+                    <!-- Exp 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Jun 2025 - Jun 2026</div>
+                        <div class="timeline-content">
+                            <h3>Junior Java Developer</h3>
+                            <h4 class="company-name">PT Nusantara Duta Solusindo</h4>
+                            <p class="timeline-desc">
+                                Developed and maintained enterprise banking and insurance applications using Java, Struts 2, Spring Framework, MariaDB, and Tomcat. Supported full application cycles including implementation, testing, deployment, SIT, and UAT. Conducted R&D in IBM WebMethods and IBM Business Automation Workflow (BAW), generating documentations and executing internal team trainings.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Exp 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Jul 2024 - Jun 2025</div>
+                        <div class="timeline-content">
+                            <h3>Java Developer Intern</h3>
+                            <h4 class="company-name">PT Nusantara Duta Solusindo</h4>
+                            <p class="timeline-desc">
+                                Developed 10+ core functionalities across front-end, back-end, and scheduling modules for enterprise banking platforms. Assisted framework updates utilizing Spring Boot, React.js, and Next.js, and supported testing activities and documentation updates.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Exp 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Aug 2023 - Jul 2024</div>
+                        <div class="timeline-content">
+                            <h3>Lab Assistant</h3>
+                            <h4 class="company-name">Universitas Prasetiya Mulya</h4>
+                            <p class="timeline-desc">
+                                Guided laboratory sessions for Web Development, Mobile Development, and Introduction to Database courses. Developed weekly instructional materials, designed practical coding exercises, and evaluated student submissions.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <h2 class="section-title text-center">Let's Connect</h2>
+                <p class="contact-subtitle text-center">
+                    Feel free to reach out for collaboration opportunities, inquiries, or just to say hi!
+                </p>
+                
+                <div class="contact-grid">
+                    <div class="contact-info-cards">
+                        <a href="mailto:kenny.ekanayake@gmail.com" class="contact-card-link">
+                            <div class="contact-info-card">
+                                <div class="contact-card-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div>
+                                    <h4>Email Me</h4>
+                                    <p>kenny.ekanayake@gmail.com</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://linkedin.com/in/kenayake" target="_blank" class="contact-card-link">
+                            <div class="contact-info-card">
+                                <div class="contact-card-icon"><i class="fa-brands fa-linkedin"></i></div>
+                                <div>
+                                    <h4>LinkedIn</h4>
+                                    <p>linkedin.com/in/kenayake</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://github.com/kenayake" target="_blank" class="contact-card-link">
+                            <div class="contact-info-card">
+                                <div class="contact-card-icon"><i class="fa-brands fa-github"></i></div>
+                                <div>
+                                    <h4>GitHub</h4>
+                                    <p>github.com/kenayake</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="resume-download-card">
+                        <i class="fa-regular fa-file-pdf resume-icon"></i>
+                        <h3>Curriculum Vitae</h3>
+                        <p>Interested in hiring me or learning more about my background? You can download my complete CV here.</p>
+                        <a href="resume.pdf" download class="btn btn-primary btn-icon">
+                            <i class="fa-solid fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 Kenneth Evan Ekanayake. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/kenayake" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com/in/kenayake" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:kenny.ekanayake@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Zoomable Lightbox Modal -->
+    <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog">
+        <!-- Close Button -->
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close modal"><i class="fa-solid fa-xmark"></i></button>
+        
+        <!-- Navigation Buttons -->
+        <button class="lightbox-nav prev" id="lightboxPrev" aria-label="Previous image"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="lightbox-nav next" id="lightboxNext" aria-label="Next image"><i class="fa-solid fa-chevron-right"></i></button>
+        
+        <!-- Interactive Zoom Toolbar -->
+        <div class="lightbox-toolbar">
+            <button class="toolbar-btn" id="zoomIn" title="Zoom In (Scroll Up)"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+            <button class="toolbar-btn" id="zoomOut" title="Zoom Out (Scroll Down)"><i class="fa-solid fa-magnifying-glass-minus"></i></button>
+            <button class="toolbar-btn" id="zoomReset" title="Reset Zoom"><i class="fa-solid fa-arrows-rotate"></i></button>
+            <span class="zoom-level" id="zoomLevel">100%</span>
+        </div>
+
+        <!-- Scrollable/Draggable Image Wrapper -->
+        <div class="lightbox-content" id="lightboxContent">
+            <img src="" alt="" class="lightbox-img" id="lightboxImg" draggable="false">
+        </div>
+        
+        <!-- Caption display -->
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
