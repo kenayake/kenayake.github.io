@@ -933,6 +933,155 @@ ul {
     font-size: 0.95rem;
 }
 
+.timeline-bullets {
+    list-style: none;
+    margin-top: 12px;
+}
+
+.timeline-bullets li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 8px;
+    color: var(--text-secondary);
+    font-size: 0.93rem;
+    line-height: 1.6;
+}
+
+.timeline-bullets li::before {
+    content: '•';
+    position: absolute;
+    left: 4px;
+    color: var(--accent-primary);
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.sub-experience-block {
+    margin-top: 60px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sub-section-title {
+    font-size: 1.4rem;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--text-primary);
+}
+
+.training-card {
+    background-color: var(--bg-glass);
+    border: 1px solid var(--border-glass);
+    border-radius: var(--border-radius-md);
+    padding: 26px 30px;
+    box-shadow: var(--shadow-glass);
+    transition: border-color var(--transition-normal);
+}
+
+.training-card:hover {
+    border-color: var(--card-hover-border);
+}
+
+.training-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.training-title {
+    font-size: 1.2rem;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+}
+
+.training-provider {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.training-date {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--accent-primary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: rgba(99, 102, 241, 0.1);
+    padding: 4px 12px;
+    border-radius: 20px;
+    border: 1px solid rgba(99, 102, 241, 0.2);
+}
+
+.training-topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.topic-tag {
+    font-size: 0.85rem;
+    padding: 6px 14px;
+    border-radius: 20px;
+    background-color: var(--bg-tertiary);
+    color: var(--text-primary);
+    border: 1px solid var(--border-glass);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.topic-tag i {
+    color: var(--accent-primary);
+    font-size: 0.8rem;
+}
+
+.volunteer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 24px;
+}
+
+.volunteer-card {
+    background-color: var(--bg-glass);
+    border: 1px solid var(--border-glass);
+    border-radius: var(--border-radius-md);
+    padding: 24px;
+    box-shadow: var(--shadow-glass);
+    transition: border-color var(--transition-normal);
+}
+
+.volunteer-card:hover {
+    border-color: var(--card-hover-border);
+}
+
+.volunteer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+}
+
+.volunteer-role {
+    font-size: 1.15rem;
+    color: var(--text-primary);
+}
+
+.volunteer-date {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--accent-primary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
 /* ==========================================================================
    Contact Section
    ========================================================================== */
