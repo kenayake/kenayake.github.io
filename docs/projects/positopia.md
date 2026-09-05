@@ -17,8 +17,8 @@ Positopia.Lab is a commercial web portal and automated reservation engine engine
 
 ## 🛠️ Technology Stack & System Architecture
 
-- **Frontend & SSR**: Next.js, Tailwind CSS, TypeScript.
-- **Backend Service**: Express.js REST APIs, Node.js runtime.
+- **Frontend & SSR**: Next.js, Tailwind CSS, Next-auth.js, TypeScript.
+- **Backend Service**: Express.js REST APIs, Node.js runtime, Prisma ORM.
 - **Database & Storage**: Supabase (PostgreSQL with Row Level Security), Google OAuth 2.0.
 - **Payment Processing**: Midtrans Payment Gateway SDK (Virtual Accounts, QRIS, Credit Cards).
 

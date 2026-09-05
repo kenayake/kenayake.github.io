@@ -21,88 +21,46 @@ export default defineConfig({
     nav: [
       { text: 'Overview', link: '/' },
       { text: 'About & Bio', link: '/about/' },
-      { text: 'Tech Stack', link: '/skills/' },
+      { text: 'Technical Skills', link: '/skills/' },
       { text: 'Experience', link: '/experience/' },
       {
         text: 'Projects',
         items: [
           { text: 'All Projects', link: '/projects/' },
           { text: 'RubyPay (1st Place Hackathon)', link: '/projects/rubypay' },
-          { text: 'Positopia.Lab (Studio Booking)', link: '/projects/positopia' },
-          { text: 'Largo id (E-Bikes Portal)', link: '/projects/largo' },
-          { text: 'Bawang Cosplay (Marketplace)', link: '/projects/bawang-cosplay' }
+          { text: 'Positopia.Lab', link: '/projects/positopia' },
+          { text: 'Largo id', link: '/projects/largo' },
+          { text: 'Bawang Cosplay', link: '/projects/bawang-cosplay' }
         ]
       },
       { text: 'Contact & CV', link: '/contact/' }
     ],
 
-    sidebar: {
-      '/about/': [
-        {
-          text: 'Profile & Architecture',
-          items: [
-            { text: 'Biography & Background', link: '/about/' },
-            { text: 'Engineering Philosophy', link: '/about/#engineering-philosophy' },
-            { text: 'Education & Honors', link: '/about/#education' }
-          ]
-        },
-        {
-          text: 'Quick Links',
-          items: [
-            { text: 'Technical Stack', link: '/skills/' },
-            { text: 'Career Timeline', link: '/experience/' },
-            { text: 'Featured Projects', link: '/projects/' }
-          ]
-        }
-      ],
-      '/skills/': [
-        {
-          text: 'Technical Specifications',
-          items: [
-            { text: 'Stack Overview', link: '/skills/' },
-            { text: 'Languages', link: '/skills/#programming-languages' },
-            { text: 'Frameworks & Runtimes', link: '/skills/#frameworks-runtimes' },
-            { text: 'Enterprise & Middleware', link: '/skills/#enterprise-integration-middleware' },
-            { text: 'Database Engines', link: '/skills/#database-systems' },
-            { text: 'DevOps & Tooling', link: '/skills/#infrastructure-tooling' }
-          ]
-        }
-      ],
-      '/experience/': [
-        {
-          text: 'Career & Industry Experience',
-          items: [
-            { text: 'Experience Overview', link: '/experience/' },
-            { text: 'PT Nusantara Duta Solusindo', link: '/experience/#pt-nusantara-duta-solusindo-junior-java-developer' },
-            { text: 'Java Developer Internship', link: '/experience/#pt-nusantara-duta-solusindo-java-developer-intern' },
-            { text: 'Academic Lab Assistant', link: '/experience/#universitas-prasetiya-mulya-lab-assistant' },
-            { text: 'IBM BAW Professional Training', link: '/experience/#professional-training-ibm-baw' },
-            { text: 'Volunteer & Mentorship', link: '/experience/#volunteer-experience' }
-          ]
-        }
-      ],
-      '/projects/': [
-        {
-          text: 'Production Case Studies',
-          items: [
-            { text: 'Index & Highlights', link: '/projects/' },
-            { text: 'RubyPay (Fintech E-Wallet)', link: '/projects/rubypay' },
-            { text: 'Positopia.Lab (Booking System)', link: '/projects/positopia' },
-            { text: 'Largo id (CMS & E-Bikes)', link: '/projects/largo' },
-            { text: 'Bawang Cosplay (Rental Market)', link: '/projects/bawang-cosplay' }
-          ]
-        }
-      ],
-      '/contact/': [
-        {
-          text: 'Connect & Download',
-          items: [
-            { text: 'Contact Channels', link: '/contact/' },
-            { text: 'Curriculum Vitae (PDF)', link: '/contact/#curriculum-vitae' },
-            { text: 'Social & Code Repositories', link: '/contact/#social-links' }
-          ]
-        }
-      ]
+    sidebar: [
+      {
+        text: 'Developer Documentation',
+        items: [
+          { text: 'About & Bio', link: '/about/' },
+          { text: 'Technical Skills', link: '/skills/' },
+          { text: 'Experience & Training', link: '/experience/' },
+          { text: 'Contact & Resume', link: '/contact/' }
+        ]
+      },
+      {
+        text: 'Projects & Case Studies',
+        items: [
+          { text: 'All Projects Overview', link: '/projects/' },
+          { text: 'RubyPay (Fintech E-Wallet)', link: '/projects/rubypay' },
+          { text: 'Positopia.Lab (Studio Booking)', link: '/projects/positopia' },
+          { text: 'Largo id (CMS & E-Bikes)', link: '/projects/largo' },
+          { text: 'Bawang Cosplay (Marketplace)', link: '/projects/bawang-cosplay' }
+        ]
+      }
+    ],
+
+    outline: {
+      level: [2, 3],
+      label: 'On this page'
     },
 
     search: {

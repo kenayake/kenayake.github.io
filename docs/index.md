@@ -2,98 +2,62 @@
 layout: home
 
 hero:
-  name: "Kenneth Evan"
+  name: "Kenneth Evan Ekanayake"
   text: "Software Engineer & Backend Developer"
-  tagline: "Specializing in enterprise banking backends, Java/Spring architectures, and IBM middleware integrations."
+  tagline: "Software Engineering graduate from Prasetiya Mulya University with professional experience in enterprise application development, system integration, and business process automation."
+  image:
+    src: /hero-graphic.svg
+    alt: Enterprise Backend Architecture
   actions:
     - theme: brand
-      text: Explore Case Studies
+      text: Explore Projects
       link: /projects/
     - theme: alt
-      text: Technical Stack
+      text: Technical Skills
       link: /skills/
     - theme: alt
-      text: Career Timeline
+      text: Experience & Training
       link: /experience/
 
 features:
-  - icon: ☕
-    title: Enterprise Java & Spring
-    details: Production banking backends with Java, Spring Boot, Struts 2, Tomcat, and MariaDB. Tested across SIT, UAT, and production environments.
-    link: /skills/
-    linkText: View Technical Stack
-  - icon: 🔄
-    title: System Integration & Middleware
-    details: Hands-on enterprise integration with IBM WebMethods and IBM Business Automation Workflow (BAW), REST/SOAP APIs, and payment webhooks.
-    link: /experience/
-    linkText: View Enterprise Experience
-  - icon: 🏆
-    title: Award-Winning Production Systems
-    details: 1st Place AyoConnect Hackathon winner (RubyPay e-wallet), photography studio reservation systems, and headless eCommerce platforms.
-    link: /projects/
-    linkText: Browse Projects
-  - icon: 🎓
-    title: Architecture & Academic Foundations
-    details: S1 Software Engineering graduate from Universitas Prasetiya Mulya with rigorous foundations in data structures, algorithms, and distributed systems.
+  - icon: 👤
+    title: About & Bio
+    details: Software Engineering graduate from Prasetiya Mulya University (3.61/4.00 GPA) with background in enterprise application development and AI research.
     link: /about/
-    linkText: Read Biography
+    linkText: Read Bio & Education
+  - icon: ☕
+    title: Technical Skills
+    details: Core proficiencies across Java, Spring Boot, Struts 2, SQL, IBM WebMethods, IBM Business Automation Workflow (BAW), and database systems.
+    link: /skills/
+    linkText: View Technical Skills
+  - icon: 💼
+    title: Experience & Training
+    details: Professional experience at PT Nusantara Duta Solusindo (Junior Java Developer & Intern), Academic Lab Assistant, and certified IBM BAW training.
+    link: /experience/
+    linkText: View Experience Timeline
+  - icon: 🚀
+    title: Featured Projects
+    details: Real-world applications and hackathon accomplishments including RubyPay (1st Place Ayotron Competition), Positopia.Lab, Largo id, and Bawang Cosplay.
+    link: /projects/
+    linkText: Explore Projects
   - icon: 📄
-    title: Technical Specifications & CV
-    details: Complete downloadable curriculum vitae, contact channels, and technical references for hiring teams and collaborators.
+    title: Contact & CV
+    details: Contact details, LinkedIn and GitHub profiles, and complete downloadable Curriculum Vitae (PDF).
     link: /contact/
-    linkText: Get in Touch & Download CV
+    linkText: Contact & Download CV
 ---
-
-<div class="hero-code-block">
-  <div class="hero-code-header">
-    <div class="hero-code-dots">
-      <span class="hero-code-dot red"></span>
-      <span class="hero-code-dot yellow"></span>
-      <span class="hero-code-dot green"></span>
-    </div>
-    <span>DeveloperProfile.java</span>
-  </div>
-
-```java
-package com.kenayake.portfolio;
-
-import org.springframework.stereotype.Component;
-
-/**
- * Technical Profile for Kenneth Evan Ekanayake
- * Role: Junior Java Developer & Backend Engineer
- */
-@Component
-public class DeveloperProfile {
-
-    private final String name = "Kenneth Evan Ekanayake";
-    private final String primaryFocus = "Enterprise Backend Architecture & System Integration";
-    private final String[] coreStack = {
-        "Java", "Spring Boot", "IBM WebMethods", "MariaDB", "REST/SOAP APIs"
-    };
-
-    public EngineeringPhilosophy getPhilosophy() {
-        return new EngineeringPhilosophy(
-            "Reliability first",
-            "Clean domain-driven separation of concerns",
-            "Resilient API integrations with proper failovers and observability"
-        );
-    }
-}
-```
-
-</div>
 
 <div class="vp-doc" style="margin-top: 3rem;">
 
-## 📌 Architecture Quick Reference
+## Quick Technical Reference
 
-| Dimension | Specification | Reference Page |
+| Dimension | Details from Resume | Page |
 | :--- | :--- | :--- |
-| **Primary Backend Stack** | Java 17+, Spring Boot, Struts 2, Hibernate, MariaDB, PostgreSQL | [Technical Stack](/skills/) |
-| **Enterprise Middleware** | IBM WebMethods, IBM Business Automation Workflow (BAW) | [Experience](/experience/) |
-| **Fullstack & Mobile** | Next.js, Flutter, Django REST, Firebase Firestore, Supabase | [Case Studies](/projects/) |
-| **Industry Background** | Financial Services & Banking Solutions at PT Nusantara Duta Solusindo | [Profile](/about/) |
-| **Curriculum Vitae** | Downloadable PDF (Updated for 2026) | [Contact & CV](/contact/) |
+| **Primary Stack** | Java, Spring Boot, Struts 2, MariaDB, Tomcat | [Technical Skills](/skills/) |
+| **Enterprise Middleware** | IBM WebMethods, IBM Business Automation Workflow (BAW) | [Technical Skills](/skills/) |
+| **Core Interests** | Backend Development, Low-Level Programming, Artificial Intelligence | [About & Bio](/about/) |
+| **Industry Background** | PT Nusantara Duta Solusindo (Enterprise Banking & Insurance Solutions) | [Experience](/experience/) |
+| **Education** | Universitas Prasetiya Mulya — Bachelor in Software Engineering (3.61/4.00) | [About & Bio](/about/) |
+| **Awards** | 1st Place — Ayotron Virtual Debit API Competition (Ayoconnect Indonesia) | [Projects](/projects/rubypay) |
 
 </div>
