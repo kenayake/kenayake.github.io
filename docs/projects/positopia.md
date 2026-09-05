@@ -1,6 +1,6 @@
 # Positopia.Lab — Photography Studio Booking System
 
-I developed Positopia.Lab as a commercial web portal and automated reservation engine for a boutique photography studio. The platform replaces manual WhatsApp scheduling with an automated real-time booking pipeline, overlap detection algorithm, and integrated payment gateway.
+I co-developed Positopia.Lab as a commercial web portal and automated reservation engine for a boutique photography studio. The platform replaces manual WhatsApp scheduling with an automated real-time booking pipeline, overlap detection algorithm, and integrated payment gateway.
 
 ---
 

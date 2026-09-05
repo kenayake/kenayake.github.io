@@ -1,6 +1,6 @@
 # Experience & Training
 
-A chronological record of professional industry roles, academic laboratory instruction, certified corporate training, and volunteer activities.
+A chronological record of my professional industry roles, academic laboratory instruction, certified corporate training, and volunteer activities.
 
 ---
 

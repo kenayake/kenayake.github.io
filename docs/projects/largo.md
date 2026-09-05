@@ -1,6 +1,6 @@
 # Largo id — E-Bikes Showcase & Content Management Portal
 
-I engineered Largo id as a premium web portal and custom content management system (CMS) for a handcrafted vintage electric bicycle brand. The project features a public-facing product catalog alongside a password-protected administrative dashboard for managing inventory, technical specifications, and publishing rich editorial articles.
+Largo id is a premium web portal and custom content management system (CMS) for a handcrafted vintage electric bicycle brand in which I engineered the backend for. The project features a public-facing product catalog alongside a password-protected administrative dashboard for managing inventory, technical specifications, and publishing rich editorial articles.
 
 ---
 
