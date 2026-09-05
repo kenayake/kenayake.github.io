@@ -9,7 +9,7 @@ export default defineConfig({
   
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
-    ['meta', { name: 'theme-color', content: '#10b981' }],
+    ['meta', { name: 'theme-color', content: '#38bdf8' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'Kenneth Evan | Backend & Systems Engineer' }],
     ['meta', { property: 'og:description', content: 'Portfolio and technical documentation for enterprise Java, Spring Boot, system integrations, and backend architectures.' }]
