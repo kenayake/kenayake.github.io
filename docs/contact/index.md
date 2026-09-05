@@ -18,7 +18,7 @@ Official contact channels, developer profile links, and downloadable Curriculum 
 
 ## Curriculum Vitae
 
-A comprehensive Curriculum Vitae detailing professional roles at PT Nusantara Duta Solusindo, education at Universitas Prasetiya Mulya, technical proficiencies, awards, and project achievements.
+Looking to bring enterprise-grade backend reliability, system integrations, and robust software engineering to your team? Grab a complete copy of my CV below.
 
 <div style="margin: 2rem 0; padding: 1.5rem; background: var(--vp-c-bg-soft); border-radius: 10px; border: 1px solid var(--vp-c-divider); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
   <div>
