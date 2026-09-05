@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "Kenneth Evan Ekanayake"
   text: "Software Engineer & Backend Developer"
-  tagline: "Software Engineering graduate from Prasetiya Mulya University with professional experience in enterprise application development, system integration, and business process automation."
+  tagline: "Enterprise backend development, system integration, and business process automation."
   image:
     src: /hero-graphic.svg
     alt: Enterprise Backend Architecture
