@@ -2,7 +2,7 @@
 
 <div class="project-card-badge">🏆 1st Place Winner — AyoConnect Ayotron Hackathon</div>
 
-RubyPay is a mobile e-wallet application that integrates with **AyoConnect's** open financial API infrastructure to issue and manage virtual debit cards. Engineered as part of a 4-person multidisciplinary engineering team for the Ayotron competition, the project was awarded **1st Place**.
+RubyPay is a mobile e-wallet application that integrates with **AyoConnect's** open financial API infrastructure to issue and manage virtual debit cards. I co-developed this application with a 4-person engineering team for the Ayotron competition, where we won **1st Place**.
 
 ---
 
@@ -44,13 +44,13 @@ RubyPay is a mobile e-wallet application that integrates with **AyoConnect's** o
 ## 🚀 Key Engineering Contributions
 
 ### 1. Robust Payment API Integration
-Connected the mobile user experience with AyoConnect's banking APIs. Implemented network resiliency using the `Dio` HTTP library, with custom interceptors for Bearer token refresh, request retries, and network failure fallbacks.
+I integrated the mobile user experience with AyoConnect's banking APIs. I implemented network resiliency using the `Dio` HTTP library, with custom interceptors for Bearer token refresh, request retries, and network failure fallbacks.
 
 ### 2. Custom Django Webhook Processor
-Constructed a dedicated backend webhook listener capable of ingesting realtime transactional notifications from AyoConnect. Implemented signature verification to guard against replay attacks and ensure balance states synchronized accurately with card events.
+I constructed a dedicated backend webhook listener capable of ingesting realtime transactional notifications from AyoConnect. I implemented signature verification to guard against replay attacks and ensure balance states synchronized accurately with card events.
 
 ### 3. High-Fidelity UI & State Reactivity
-Engineered interactive financial widgets, spend tracking charts, and instant transaction feed updates upon webhook receipt.
+I engineered interactive financial widgets, spend tracking charts, and instant transaction feed updates upon webhook receipt.
 
 ---
 

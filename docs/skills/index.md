@@ -1,6 +1,6 @@
 # Technical Skills
 
-A breakdown of technical proficiencies across programming languages, frameworks, enterprise middleware, database management systems, and development tools documented in my resume.
+A comprehensive breakdown of my technical proficiencies across programming languages, frameworks, enterprise middleware, database management systems, and development tools.
 
 ---
 

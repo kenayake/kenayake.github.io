@@ -1,6 +1,6 @@
 # Contact & Resume
 
-Official contact channels, developer profile links, and downloadable Curriculum Vitae.
+Here are my direct contact channels, developer profiles, and downloadable Curriculum Vitae.
 
 ---
 

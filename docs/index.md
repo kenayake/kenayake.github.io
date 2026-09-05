@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "Kenneth Evan Ekanayake"
   text: "Software Engineer & Backend Developer"
-  tagline: "Enterprise backend development, system integration, and business process automation."
+  tagline: "Software Engineering Graduate | Enterprise backend development and business process automation."
   image:
     src: /hero-graphic.svg
     alt: Enterprise Backend Architecture
@@ -22,27 +22,27 @@ hero:
 features:
   - icon: 👤
     title: About & Bio
-    details: Software Engineering graduate from Prasetiya Mulya University (3.61/4.00 GPA) with background in enterprise application development and AI research.
+    details: I am a Software Engineering graduate from Prasetiya Mulya University (3.61/4.00 GPA) with a background in enterprise application development and AI research.
     link: /about/
     linkText: Read Bio & Education
   - icon: ☕
     title: Technical Skills
-    details: Core proficiencies across Java, Spring Boot, Struts 2, SQL, IBM WebMethods, IBM Business Automation Workflow (BAW), and database systems.
+    details: My technical proficiencies across Java, Spring Boot, Struts 2, SQL, IBM WebMethods, IBM Business Automation Workflow (BAW), and database systems.
     link: /skills/
     linkText: View Technical Skills
   - icon: 💼
     title: Experience & Training
-    details: Professional experience at PT Nusantara Duta Solusindo (Junior Java Developer & Intern), Academic Lab Assistant, and certified IBM BAW training.
+    details: My professional background at PT Nusantara Duta Solusindo (Junior Java Developer & Intern), Academic Lab Assistant roles, and certified IBM BAW training.
     link: /experience/
     linkText: View Experience Timeline
   - icon: 🚀
     title: Featured Projects
-    details: Real-world applications and hackathon accomplishments including RubyPay (1st Place Ayotron Competition), Positopia.Lab, Largo id, and Bawang Cosplay.
+    details: Production applications and hackathon systems I have built, including RubyPay (1st Place Ayotron Competition), Positopia.Lab, Largo id, and Bawang Cosplay.
     link: /projects/
     linkText: Explore Projects
   - icon: 📄
     title: Contact & CV
-    details: Contact details, LinkedIn and GitHub profiles, and complete downloadable Curriculum Vitae (PDF).
+    details: My direct contact details, LinkedIn and GitHub profiles, and complete downloadable Curriculum Vitae (PDF).
     link: /contact/
     linkText: Contact & Download CV
 ---

@@ -2,7 +2,7 @@
 
 ## Professional Summary
 
-Software Engineering graduate from Prasetiya Mulya University with professional experience in enterprise application development, system integration, and business process automation. Experienced with Java, Spring Boot, Struts 2, IBM WebMethods, and IBM Business Automation Workflow (BAW). Skilled in backend development, API integration, enterprise middleware, and modern web technologies.
+I am a Software Engineering graduate from Prasetiya Mulya University with professional experience in enterprise application development, system integration, and business process automation. I work extensively with Java, Spring Boot, Struts 2, IBM WebMethods, and IBM Business Automation Workflow (BAW), with practical strengths in backend development, API integration, enterprise middleware, and modern web technologies.
 
 ---
 
@@ -20,9 +20,7 @@ Software Engineering graduate from Prasetiya Mulya University with professional 
 
 ---
 
-## Professional Interests
-
-Based on academic background and engineering exploration:
+## Personal & Professional Interests
 
 - **Low-Level Programming**: System mechanics, memory management, and runtime performance.
 - **Artificial Intelligence**: Machine learning models, computer vision architectures (CNNs), and applied AI systems.
@@ -36,4 +34,4 @@ Based on academic background and engineering exploration:
 - **Date**: January 01, 2023
 - **Organizer**: Ayoconnect Indonesia
 - **Project**: RubyPay
-- **Details**: Co-developed a Flutter application with Django REST backend and external API integration utilizing AyoConnect's virtual debit card infrastructure.
+- **Details**: Co-developed a Flutter application with Django REST backend and external API integration utilizing AyoConnect's virtual debit card infrastructure.   

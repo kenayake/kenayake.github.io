@@ -1,6 +1,6 @@
 # Production Case Studies & Systems
 
-A directory of engineering projects, architectural case studies, and fullstack implementations built across hackathons, client contracts, and open-source initiatives.
+A directory of engineering projects, architectural case studies, and fullstack implementations I have built across hackathons, client contracts, and personal initiatives.
 
 ---
 
