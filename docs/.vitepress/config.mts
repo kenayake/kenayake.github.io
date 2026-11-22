@@ -16,24 +16,12 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    siteTitle: 'Kenneth Evan <span class="badge-role">Backend / Systems</span>',
+    siteTitle: 'Kenneth Evan Ekanayake',
     
     nav: [
       { text: 'Overview', link: '/' },
-      { text: 'About & Bio', link: '/about/' },
-      { text: 'Technical Skills', link: '/skills/' },
-      { text: 'Experience', link: '/experience/' },
-      {
-        text: 'Projects',
-        items: [
-          { text: 'All Projects', link: '/projects/' },
-          { text: 'RubyPay (1st Place Hackathon)', link: '/projects/rubypay' },
-          { text: 'Positopia.Lab', link: '/projects/positopia' },
-          { text: 'Largo id', link: '/projects/largo' },
-          { text: 'Bawang Cosplay', link: '/projects/bawang-cosplay' }
-        ]
-      },
-      { text: 'Contact & CV', link: '/contact/' }
+      { text: 'Contact & CV', link: '/contact/' },
+      { text: 'Source Code', link: 'https://github.com/kenayake/kenayake.github.io' }
     ],
 
     sidebar: [

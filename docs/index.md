@@ -3,8 +3,7 @@ layout: home
 
 hero:
   name: "Kenneth Evan Ekanayake"
-  text: "Software Engineer & Backend Developer"
-  tagline: "Software Engineering Graduate | Enterprise backend development and business process automation."
+  tagline: "Software Engineer & Backend Developer"
   image:
     src: /hero-graphic.svg
     alt: Enterprise Backend Architecture
@@ -20,44 +19,49 @@ hero:
       link: /experience/
 
 features:
-  - icon: 👤
+  - icon:
+      src: /icons/about.svg
+      width: 24
+      height: 24
+      wrap: true
     title: About & Bio
-    details: I am a Software Engineering graduate from Prasetiya Mulya University (3.61/4.00 GPA) with a background in enterprise application development and AI research.
+    details: Who I am, where I studied, and what drives me as a developer.
     link: /about/
     linkText: Read Bio & Education
-  - icon: ☕
+  - icon:
+      src: /icons/skills.svg
+      width: 24
+      height: 24
+      wrap: true
     title: Technical Skills
-    details: My technical proficiencies across Java, Spring Boot, Struts 2, SQL, IBM WebMethods, IBM Business Automation Workflow (BAW), and database systems.
+    details: Languages, frameworks, and tools I work with day to day.
     link: /skills/
     linkText: View Technical Skills
-  - icon: 💼
+  - icon:
+      src: /icons/experience.svg
+      width: 24
+      height: 24
+      wrap: true
     title: Experience & Training
-    details: My professional background at PT Nusantara Duta Solusindo (Junior Java Developer & Intern), Academic Lab Assistant roles, and certified IBM BAW training.
+    details: Where I have worked, what I built there, and certifications I have earned.
     link: /experience/
     linkText: View Experience Timeline
-  - icon: 🚀
+  - icon:
+      src: /icons/projects.svg
+      width: 24
+      height: 24
+      wrap: true
     title: Featured Projects
-    details: Production applications and hackathon systems I have built, including RubyPay (1st Place Ayotron Competition), Positopia.Lab, Largo id, and Bawang Cosplay.
+    details: A look at the systems and applications I have shipped.
     link: /projects/
     linkText: Explore Projects
-  - icon: 📄
+  - icon:
+      src: /icons/contact.svg
+      width: 24
+      height: 24
+      wrap: true
     title: Contact & CV
-    details: My direct contact details, LinkedIn and GitHub profiles, and complete downloadable Curriculum Vitae (PDF).
+    details: Get in touch or grab a copy of my full CV.
     link: /contact/
     linkText: Contact & Download CV
 ---
-
-<div class="vp-doc" style="margin-top: 3rem;">
-
-## Quick Technical Reference
-
-| Dimension | Details from Resume | Page |
-| :--- | :--- | :--- |
-| **Primary Stack** | Java, Spring Boot, Struts 2, MariaDB, Tomcat | [Technical Skills](/skills/) |
-| **Enterprise Middleware** | IBM WebMethods, IBM Business Automation Workflow (BAW) | [Technical Skills](/skills/) |
-| **Core Interests** | Backend Development, Low-Level Programming, Artificial Intelligence | [About & Bio](/about/) |
-| **Industry Background** | PT Nusantara Duta Solusindo (Enterprise Banking & Insurance Solutions) | [Experience](/experience/) |
-| **Education** | Universitas Prasetiya Mulya — Bachelor in Software Engineering (3.61/4.00) | [About & Bio](/about/) |
-| **Awards** | 1st Place — Ayotron Virtual Debit API Competition (Ayoconnect Indonesia) | [Projects](/projects/rubypay) |
-
-</div>

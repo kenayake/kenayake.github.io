@@ -74,6 +74,12 @@
   }
 }
 
+/* Hero Subtitle Gray Color */
+.VPHome .VPHero .tagline,
+.VPHome .VPHero .text {
+  color: #9CA3AF !important;
+}
+
 /* Hero Action CTA Button with Saturated 2-Stop Pastel Gradient */
 .VPHome .VPHero .action-button.brand,
 .VPHero .actions .action-item:first-child a {
@@ -91,10 +97,44 @@
   transform: translateY(-2px);
 }
 
-/* Feature Cards on Dark Gray #1A1A1A */
+/* Home Features Section Header */
+.home-features-header {
+  position: relative;
+  padding: 0 24px;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 640px) {
+  .home-features-header {
+    padding: 0 48px;
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 960px) {
+  .home-features-header {
+    padding: 0 64px;
+  }
+}
+
+.home-features-header .container {
+  margin: 0 auto;
+  max-width: 1152px;
+}
+
+.home-features-title {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #9CA3AF;
+  letter-spacing: -0.01em;
+}
+
+/* Feature Cards: Dark Blue-Gray (Half Gray, Half Blue) */
 .VPHome .VPFeature {
-  background: #242424 !important;
-  border: 1px solid #383838 !important;
+  background: #181d24 !important;
+  border: 1px solid #262d38 !important;
   border-radius: 14px !important;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
 }
@@ -105,7 +145,7 @@
   transform: translateY(-3px);
 }
 
-/* Feature Icons: Vibrant Pastel Theming per Card */
+/* Feature Icons: Uniform Flat Background, No Border */
 .VPHome .VPFeature .icon {
   display: flex !important;
   align-items: center !important;
@@ -113,43 +153,10 @@
   width: 48px !important;
   height: 48px !important;
   border-radius: 12px !important;
-  font-size: 1.4rem !important;
+  background: #1f2630 !important;
+  border: none !important;
+  box-shadow: none !important;
   transition: all 0.25s ease !important;
-}
-
-/* 1. About & Bio -> Pastel Sky Blue */
-.VPHome .VPFeatures .item:nth-child(1) .icon {
-  background: rgba(120, 179, 226, 0.2) !important;
-  border: 1.5px solid #78B3E2 !important;
-  box-shadow: 0 0 18px rgba(120, 179, 226, 0.35) !important;
-}
-
-/* 2. Technical Skills -> Pastel Cyan / Mint */
-.VPHome .VPFeatures .item:nth-child(2) .icon {
-  background: rgba(103, 232, 249, 0.2) !important;
-  border: 1.5px solid #67E8F9 !important;
-  box-shadow: 0 0 18px rgba(103, 232, 249, 0.35) !important;
-}
-
-/* 3. Experience & Training -> Pastel Lavender */
-.VPHome .VPFeatures .item:nth-child(3) .icon {
-  background: rgba(192, 132, 252, 0.2) !important;
-  border: 1.5px solid #C084FC !important;
-  box-shadow: 0 0 18px rgba(192, 132, 252, 0.35) !important;
-}
-
-/* 4. Featured Projects -> Pastel Pink */
-.VPHome .VPFeatures .item:nth-child(4) .icon {
-  background: rgba(244, 114, 182, 0.2) !important;
-  border: 1.5px solid #F472B6 !important;
-  box-shadow: 0 0 18px rgba(244, 114, 182, 0.35) !important;
-}
-
-/* 5. Contact & CV -> Pastel Peach / Coral */
-.VPHome .VPFeatures .item:nth-child(5) .icon {
-  background: rgba(251, 146, 60, 0.2) !important;
-  border: 1.5px solid #FB923C !important;
-  box-shadow: 0 0 18px rgba(251, 146, 60, 0.35) !important;
 }
 
 /* Site Title Role Badge with Light Blue & Pastel Pink Accent */
