@@ -8,7 +8,7 @@ This Windows Task Manager clone was a project I made during my journey learning 
   title="C Process Manager Desktop Interface"
   :slides="[
     { src: '/images/process-manager/screenshot_1.png', alt: 'C Process Manager Dark Mode', caption: 'Dark Theme: Live Process Table, Resource Columns, Hierarchical PGID Process Trees' },
-    { src: '/images/process-manager/screenshot_2.png', alt: 'C Process Manager Settings Page', caption: 'Application Settings: GSettings-Backed Theme Preferences & Refresh Rates },
+    { src: '/images/process-manager/screenshot_2.png', alt: 'C Process Manager Settings Page', caption: 'Application Settings: GSettings-Backed Theme Preferences & Refresh Rates' },
     { src: '/images/process-manager/screenshot_3.png', alt: 'C Process Manager Light Mode with Expanded Trees', caption: 'Light Theme: Search Filtering, Dynamic Sorters & Resource Highlighting' }
   ]"
 />
