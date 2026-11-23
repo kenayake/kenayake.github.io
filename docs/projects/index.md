@@ -1,23 +1,25 @@
-# Production Case Studies & Systems
+# Personal & Production Projects
 
-A directory of engineering projects, architectural case studies, and fullstack implementations I have built across hackathons, client contracts, and personal initiatives.
+A directory of engineering projects I have built across hackathons, client contracts, and personal initiatives.
 
 ---
 
 <div class="project-showcase-grid">
 
-  <!-- RubyPay -->
-  <a href="/projects/rubypay" class="project-summary-card">
-    <div class="project-card-badge">🏆 1st Place AyoConnect Hackathon</div>
-    <h3 class="project-summary-title">RubyPay E-Wallet</h3>
+  <!-- C Process Manager -->
+  <a href="/projects/process-manager" class="project-summary-card">
+    <h3 class="project-summary-title">C Process Manager for Linux</h3>
     <p class="project-summary-desc">
-      A mobile financial application utilizing AyoConnect's virtual debit card backend. Features token authentication, external payment API integration, and realtime webhook processing.
+      A native GTK 4 process monitor and task manager in C11. Features multi-file /proc telemetry (stat, status, statm, io), a three-pass GListStore synchronization engine, PGID tree grouping, GSettings preferences, and Flatpak packaging.
     </p>
     <div class="project-summary-meta">
-      <span class="tech-tag primary">Flutter</span>
-      <span class="tech-tag">Django REST</span>
-      <span class="tech-tag">Payment APIs</span>
-      <span class="tech-tag">Webhooks</span>
+      <span class="tech-tag primary">C11</span>
+      <span class="tech-tag">GTK 4</span>
+      <span class="tech-tag">GObject</span>
+      <span class="tech-tag">Linux /proc</span>
+      <span class="tech-tag">GSettings</span>
+      <span class="tech-tag">Flatpak</span>
+      <span class="tech-tag">Meson</span>
     </div>
   </a>
 
@@ -32,6 +34,21 @@ A directory of engineering projects, architectural case studies, and fullstack i
       <span class="tech-tag">Express.js</span>
       <span class="tech-tag">Supabase</span>
       <span class="tech-tag">Midtrans SDK</span>
+    </div>
+  </a>
+
+  <!-- RubyPay -->
+  <a href="/projects/rubypay" class="project-summary-card">
+    <div class="project-card-badge">🏆 1st Place AyoConnect Hackathon</div>
+    <h3 class="project-summary-title">RubyPay E-Wallet</h3>
+    <p class="project-summary-desc">
+      A mobile financial application utilizing AyoConnect's virtual debit card backend. Features token authentication, external payment API integration, and realtime webhook processing.
+    </p>
+    <div class="project-summary-meta">
+      <span class="tech-tag primary">Flutter</span>
+      <span class="tech-tag">Django REST</span>
+      <span class="tech-tag">Payment APIs</span>
+      <span class="tech-tag">Webhooks</span>
     </div>
   </a>
 
@@ -75,3 +92,4 @@ A directory of engineering projects, architectural case studies, and fullstack i
 | [Positopia.Lab](/projects/positopia) | E-Commerce / Booking | Express.js, Supabase, Midtrans SDK | Conflict-free calendar scheduling |
 | [Largo id](/projects/largo) | CMS / Catalog | Next.js, Firebase Firestore, Storage | Custom admin dashboard & rich editor |
 | [Bawang Cosplay](/projects/bawang-cosplay) | Marketplace | Next.js, Drizzle ORM, Firebase | Role-based permissions & rental queries |
+| [C Process Manager](/projects/process-manager) | Systems / Desktop | C11, GTK 4, Linux /proc, GObject, GSettings | Three-pass model sync, /proc parsing (statm, io), Flatpak & GNOME metadata |

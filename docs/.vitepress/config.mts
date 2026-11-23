@@ -35,13 +35,14 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Projects & Case Studies',
+        text: 'Projects',
         items: [
           { text: 'All Projects Overview', link: '/projects/' },
           { text: 'RubyPay (Fintech E-Wallet)', link: '/projects/rubypay' },
           { text: 'Positopia.Lab (Studio Booking)', link: '/projects/positopia' },
           { text: 'Largo id (CMS & E-Bikes)', link: '/projects/largo' },
-          { text: 'Bawang Cosplay (Marketplace)', link: '/projects/bawang-cosplay' }
+          { text: 'Bawang Cosplay (Marketplace)', link: '/projects/bawang-cosplay' },
+          { text: 'C Process Manager (Linux Desktop)', link: '/projects/process-manager' }
         ]
       }
     ],
